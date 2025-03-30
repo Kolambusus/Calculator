@@ -18,25 +18,25 @@ def calculator():
 
     if operat == '+':
         result = number_1 + number_2
-        print(result)
+        print('Итог: ', result)
     elif operat == '-':
         result = number_1 - number_2
-        print(result)
+        print('Итог: ', result)
     elif operat == '/':
         if number_1 != 0 and number_2 != 0:
             result = number_1 / number_2
-            print(result)
+            print('Итог: ', result)
         else:
             print('[Ошибка] На ноль делять нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '*':
         result = number_1 * number_2
-        print(result)
+        print('Итог: ', result)
     elif operat == '//':
         if number_1 != 0 and number_2 != 0:
             result = number_1 // number_2
-            print(result)
+            print('Итог: ', result)
         else:
             print('[Ошибка] На ноль делять нельзя!')
             print('Попробуйте еще раз :)')
@@ -44,7 +44,7 @@ def calculator():
     elif operat == '%':
         if number_1 != 0 and number_2 != 0:
             result = number_1 % number_2
-            print(result)
+            print('Итог: ', result)
         else:
             print('[Ошибка] На ноль делять нельзя!')
             print('Попробуйте еще раз :)')
