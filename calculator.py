@@ -1,8 +1,9 @@
 # << ==================== >>
+#
 # Самый простой калькулятор на Python
 # 
-#
 # Сделано Kolambus
+#
 # << ==================== >>
 
 def calculator():
@@ -27,7 +28,7 @@ def calculator():
             result = number_1 / number_2
             print('Итог => ', result)
         else:
-            print('[Ошибка] На ноль делять нельзя!')
+            print('[Ошибка] На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '*':
@@ -38,7 +39,7 @@ def calculator():
             result = number_1 // number_2
             print('Итог => ', result)
         else:
-            print('[Ошибка] На ноль делять нельзя!')
+            print('[Ошибка] На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '%':
@@ -46,7 +47,7 @@ def calculator():
             result = number_1 % number_2
             print('Итог => ', result)
         else:
-            print('[Ошибка] На ноль делять нельзя!')
+            print('[Ошибка] На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '**':
