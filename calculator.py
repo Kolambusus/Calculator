@@ -7,7 +7,7 @@
 
 def calculator():
 
-    operation = ['+', '-', '/', '*', '//', '%', '^']
+    operation = ['+', '-', '/', '*', '//', '%', '**']
     print('Привет, я калькулятор!')
     print('')
     number_1 = int(input('Введите первое число: '))
@@ -49,7 +49,7 @@ def calculator():
             print('[Ошибка] На ноль делять нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
-    elif operat == '^':
+    elif operat == '**':
         result = number_1**number_2
         print('Итог => ', result)
     else:
