@@ -28,7 +28,7 @@ def calculator():
             result = number_1 / number_2
             print('Итог => ', result)
         else:
-            print('[Ошибка] На ноль делить нельзя!')
+            print('На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '*':
@@ -39,7 +39,7 @@ def calculator():
             result = number_1 // number_2
             print('Итог => ', result)
         else:
-            print('[Ошибка] На ноль делить нельзя!')
+            print('На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '%':
@@ -47,7 +47,7 @@ def calculator():
             result = number_1 % number_2
             print('Итог => ', result)
         else:
-            print('[Ошибка] На ноль делить нельзя!')
+            print('На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
             return calculator()
     elif operat == '**':
