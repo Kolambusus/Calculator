@@ -1,11 +1,13 @@
-# << ==================== >>
-#
-# Самый простой калькулятор на Python
-# 
-# Сделано Kolambus
-#
-# << ==================== >>
+## |---------------------------------------|
+## | :by Kolambus                          | 
+## |                                       |    
+## | :The simplest calculator in Python    |
+## |                                       |
+## | :Total 61 lines                       |
+## |---------------------------------------| 
 
+
+## start
 def calculator():
 
     operation = ['+', '-', '/', '*', '//', '%', '**']
@@ -59,8 +61,4 @@ def calculator():
         return calculator()
     
 calculator()
-
-
-
-
-
+## finish
