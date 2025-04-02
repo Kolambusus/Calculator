@@ -1,5 +1,5 @@
 ## |---------------------------------------|
-## | :by Kolambus                          | 
+## | :by Kolambus    <(* ^ ω ^)>           | 
 ## |                                       |    
 ## | :The simplest calculator in Python    |
 ## |                                       |
