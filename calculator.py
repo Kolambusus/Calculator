@@ -3,7 +3,7 @@
 ## |                                       |    
 ## | :The simplest calculator in Python    |
 ## |                                       |
-## | :Total 61 lines                       |
+## | :Total 63 lines                       |
 ## |---------------------------------------| 
 
 
