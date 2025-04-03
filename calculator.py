@@ -28,7 +28,7 @@ def calculator():
     elif operat == '/':
         if number_1 != 0 and number_2 != 0:
             result = number_1 / number_2
-            print('Итог => ', result)
+            print('Итог => ', int(result))
         else:
             print('На ноль делить нельзя!')
             print('Попробуйте еще раз :)')
