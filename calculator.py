@@ -3,6 +3,8 @@
 ## |                                       |    
 ## | :The simplest calculator in Python    |
 ## |                                       |
+## | :Version 0.1.5                        |
+## |                                       |
 ## | :Total 63 lines                       |
 ## |---------------------------------------| 
 
