@@ -35,7 +35,7 @@ def calculator(x, y):
         return None
         
     # вывод итогового результата
-    print(f"Результат: {x} {operation} {y} => ", result)
+    print(f"Результат: {x} {operation} {y}  => ", result)
     return result
 
 
